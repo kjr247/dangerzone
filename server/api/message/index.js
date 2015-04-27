@@ -6,6 +6,7 @@ var controller = require('./message.controller');
 var router = express.Router();
 
 router.get('/', controller.index);
+router.get('/crimes', controller.getCrimeData);
 router.get('/:id', controller.show);
 router.post('/', controller.create);
 router.put('/:id', controller.update);

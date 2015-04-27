@@ -8,4 +8,5 @@ angular.module('dangerzoneApp')
         templateUrl: 'app/admin/admin.html',
         controller: 'AdminCtrl'
       });
+      
   });

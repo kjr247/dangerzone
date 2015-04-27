@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dangerzoneApp', [
+var dangerzoneApp = angular.module('dangerzoneApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -51,4 +51,5 @@ angular.module('dangerzoneApp', [
         }
       });
     });
+
   });

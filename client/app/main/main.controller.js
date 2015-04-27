@@ -23,5 +23,6 @@ angular.module('dangerzoneApp')
 
     $scope.$on('$destroy', function () {
       socket.unsyncUpdates('thing');
-    });
+    });    
   });
+
